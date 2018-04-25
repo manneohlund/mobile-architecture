@@ -181,13 +181,13 @@ Coding patterns
 
 @title[iOS MVVM]
 
-<img src="https://github.com/manneohlund/mobile-architecture/blob/master/assets/ios-mvvm.png?raw=true" alt="IOS MVVM" height="500" width="500">
+<img src="https://github.com/manneohlund/mobile-architecture/blob/master/assets/ios-mvvm.png?raw=true" alt="IOS MVVM" height="500" width="550">
 
 +++
 
 @title[Android MVVM]
 
-<img src="https://github.com/manneohlund/mobile-architecture/blob/master/assets/android-mvvm.png?raw=true" alt="Android MVVM" height="500" width="500">
+<img src="https://github.com/manneohlund/mobile-architecture/blob/master/assets/android-mvvm.png?raw=true" alt="Android MVVM" height="500" width="550">
 
 ---
 
