@@ -33,8 +33,8 @@ Points in workshop
 @ul
 
 - Avoid complex hierarchies (Less is more)
-- Avoid Base classes
 - Favor composition over inheritance
+- Avoid Base classes
 
 @ulend
 
@@ -44,55 +44,96 @@ Points in workshop
 
 - More flexible
 - Avoid tight coupling
-- Multiple inheritance is not working
+- Multiple inheritance?
   
 +++
 
 @title[Composition over inheritance]
 
-ViewController = Fragment/Activity
+### So how should we think?
+
+Think of **composition** as a **has a** relationship.
+A car **"has an"** engine, a person **"has a"** name, etc.
+
+Think of **inheritance** as an **is a** relationship. 
+A car **"is a"** vehicle, a person **"is a"** mammal, etc.
 
 +++
 
-@title[Inheritance]
+@title[Examples]
 
-Inheritance
+**Inheritance** - I am of a type.
 
-```kotlin
-class BaseViewController {
-  fun startOtherViewController(name: String)
+Foo is a type of Bar.
+
+```java
+class Foo extends Bar {
+
 }
 ```
 
+**Composition** - I own an object.
+
+Foo is responsible for its lifetime, when Foo dies, so does Bar
+
 ```kotlin
-class ViewController : BaseViewController {
-  // invoke startOtherViewController() 
+class Foo {
+    Bar bar = new Bar()
 }
 ```
 
 +++
 
-@title[Composition]
+@title[Association & Aggregation]
 
-Composition
+**Association** - I have a relationship with an object. 
 
-```kotlin
-class ViewControllerCoordinator {
-  fun startOtherViewController(name: String)
+Foo uses Bar
+
+```java
+class Foo { 
+  void Baz(Bar bar) {
+    // Do something
+  } 
 }
 ```
 
-```kotlin
-class ViewController {
-  val coordinator: ViewControllerCoordinator
-  
-  Car(coordinator: ViewControllerCoordinator) {
-    this.coordinator = coordinator
-  }
-  
-  // invoke coordinator.startOtherViewController()
+**Aggregation** - I have an object which I've borrowed from someone else.
+
+When Foo dies, Bar may live on.
+
+```java
+class Foo { 
+    Bar bar
+    Foo(Bar bar) { 
+       this.bar = bar
+    }
 }
 ```
+
++++
+
+### Complex data structures
+
+Games dev with ex characters uses all technics.
+
+```java
+class Employee extends Person implements ProjectManager, CoffeSpecialist
+```
+
++++
+
+### Why is all this important?
+
+OOP is a pushed on industy standard for some reason (C++, Java)
+We want to reuse code, but sometimes it can go wrong and we need to refactor.
+
+@ul
+
+- Why do we have som many utils for example?
+- Look at C and Unix
+
+@ulend
 
 ---
 
@@ -124,7 +165,7 @@ Frost will use MVVM pattern in both iOS and Android
 
 @ul
 
-- **Model** </br><font size="4">Data as is</font>
+- **Model** <font size="4">Data as is</font>
 - **View** <font size="4">No logic, maybe animations</font>
 - **ViewModel** <font size="4">Switch for model data and view states</font>
 - **ViewController/Fragment** <font size="4">View orchestrator & controls async tasks and logic</font>
