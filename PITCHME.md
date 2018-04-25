@@ -62,7 +62,7 @@ Good architecture leads to:
 
 Coding patterns
 
-![Coding patters](/assets/mvc-mvp-mvvm.png?raw=true)
+![Coding patters](/assets/img-mvc-mvp-mvvm.png?raw=true)
 
 ---
 
