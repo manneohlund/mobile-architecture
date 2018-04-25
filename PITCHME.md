@@ -129,6 +129,7 @@ class Employee extends Person implements ProjectManager, CoffeeSpecialist, Janit
 ### Why is all this important?
 
 OOP is a pushed on industy standard for some reason (C++, Java)
+
 We want to reuse code, but sometimes it can go wrong and we need to refactor.
 
 @ul
@@ -164,14 +165,14 @@ Coding patterns
 
 @title[MVVM]
 
-Frost will use MVVM pattern in both iOS and Android
+**Frost** will use **MVVM** pattern in both iOS and Android
 
 @ul
 
 - **Model** <font size="4">Data as is</font>
-- **View** <font size="4">No logic, maybe animations</font>
-- **ViewModel** <font size="4">Switch for model data and view states</font>
-- **ViewController/Fragment** <font size="4">View orchestrator & controls async tasks and logic</font>
+- **View** <font size="4">What user sees. Minor logic, maybe animations</font>
+- **ViewModel** <font size="4">Switch for model data and view states. "State of the data in the Model"</font>
+- **ViewController/Fragment** <font size="4">View orchestrator & controls async tasks, viewmodel logic</font>
 - **DataProvider/AppRepository** <font size="4">Networking, DB, Cache reuse. Subscribers? 🤔</font>
 
 @ulend
