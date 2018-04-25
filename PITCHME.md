@@ -52,7 +52,7 @@ Good architecture leads to:
 
 - Uniform team, projects and vision
 - Better code
-- Avoid refactoring
+- Less refactoring
 
 @ulend
 
