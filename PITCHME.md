@@ -68,12 +68,13 @@ Coding patterns
 
 @title[Project structure]
 
-Frost uses **feature** based structure of the project
+**Feature** based structure of the project
 
-.small[
++++
+
 <table>
   <tbody>
-    <tr><th>iOS</th><th>Android</th></tr>
+    <tr><th>.small[iOS]</th><th>.small[Android]</th></tr>
     <tr>
       <!-- iOS -->
       <td>
@@ -127,7 +128,6 @@ Frost uses **feature** based structure of the project
     <tr><th align="left">AppRepository</th><th align="left">AppRepository</th></tr>
   </tbody>
 </table>
-]
 
 ---
 
