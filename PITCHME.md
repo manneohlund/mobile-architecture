@@ -32,8 +32,8 @@ Points in workshop
 
 @ul
 
-- Avoid complex hierarchies (`Base` classes)
-- Less is more
+- Avoid complex hierarchies (Less is more)
+- Avoid Base classes
 - Favor composition over inheritance
 
 @ulend
@@ -50,29 +50,41 @@ Points in workshop
 
 @title[Composition over inheritance]
 
-```kotlin
-class BaseViewController {
-  
-}
-```
+ViewController = Fragment/Activity
 
 Inheritance
 
 ```kotlin
-class Car : Engine {
-  // 
+class BaseViewController {
+  fun startOtherViewController(name: String)
 }
 ```
+
+```kotlin
+class ViewController : BaseViewController {
+  // invoke startOtherViewController() 
+}
+```
+
++++
 
 Composition
 
 ```kotlin
-class Car {
-  val engine: EngineSpecs
+class ViewControllerCoordinator {
+  fun startOtherViewController(name: String)
+}
+```
+
+```kotlin
+class ViewController {
+  val coordinator: ViewControllerCoordinator
   
-  Car(specs: EngineSpecs) {
-    engine = Engine(specs)
+  Car(coordinator: ViewControllerCoordinator) {
+    this.coordinator = coordinator
   }
+  
+  // invoke coordinator.startOtherViewController()
 }
 ```
 
