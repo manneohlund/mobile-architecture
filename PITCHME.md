@@ -54,7 +54,7 @@ Points in workshop
 ### So how should we think?
 
 Think of **inheritance** as an **is a** relationship. 
-<p><font size="5">A car **"is a"** vehicle, a employee **"is a"** person, etc.</font></p>
+<p><font size="5">A car **"is a"** vehicle, an employee **"is a"** person, etc.</font></p>
 
 Think of **composition** as a **has a** relationship.
 <p><font size="5">A car **"has an"** engine, a person **"has a"** name, etc.</font></p>
