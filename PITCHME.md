@@ -46,7 +46,7 @@ class Engine {
 }
 ```
 
-<div style='float:left;width:48%;'>
+<div class="left">
 Inheritance
 
 ```kotlin
@@ -55,7 +55,7 @@ class Car extends Engine {
 }
 ```
 </div>
-<div style='float:right;width:48%;'>
+<div class="right">
 Composition
 
 ```kotlin
