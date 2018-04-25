@@ -58,7 +58,9 @@ Good architecture leads to:
 
 ---
 
-# Coding patterns
+@title[Coding patterns]
+
+Coding patterns
 
 ![Coding patters](/assets/mvc-mvp-mvvm.png?raw=true)
 
