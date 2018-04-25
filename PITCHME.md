@@ -62,7 +62,7 @@ Good architecture leads to:
 
 Coding patterns
 
-![Coding patters](/assets/img-mvc-mvp-mvvm.png?raw=true)
+![Coding patters](https://github.com/manneohlund/mobile-architecture/blob/master/assets/img-mvc-mvp-mvvm.png?raw=true)
 
 ---
 
