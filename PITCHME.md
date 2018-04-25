@@ -72,7 +72,7 @@ Coding patterns
 
 +++
 
-<font size="2">
+<font size="3">
 <table>
   <tbody>
     <tr><th>iOS</th><th>Android</th></tr>
@@ -126,7 +126,7 @@ Coding patterns
     </tr>
     <tr><th align="left">AppDelegate</th><th align="left">Application</th></tr>
     <tr><th align="left"></th><th align="left">AppCoordinator</th></tr>
-    <tr><th align="left">AppRepository</th><th align="left">AppRepository</th></tr>
+    <tr><th align="left">DataProvider/AppRepository</th><th align="left">DataProvider/AppRepository</th></tr>
   </tbody>
 </table>
 </font>
