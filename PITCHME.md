@@ -72,6 +72,7 @@ Coding patterns
 
 +++
 
+<font size="2">
 <table>
   <tbody>
     <tr><th>iOS</th><th>Android</th></tr>
@@ -128,6 +129,7 @@ Coding patterns
     <tr><th align="left">AppRepository</th><th align="left">AppRepository</th></tr>
   </tbody>
 </table>
+</font>
 
 ---
 
