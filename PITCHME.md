@@ -118,7 +118,7 @@ class Foo {
 Games dev with ex characters uses all technics.
 
 ```java
-class Employee extends Person implements ProjectManager, CoffeeSpecialist
+class Employee extends Person implements ProjectManager, CoffeeSpecialist, Janitor
 ```
 
 +++
