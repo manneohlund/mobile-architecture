@@ -54,6 +54,8 @@ ViewController = Fragment/Activity
 
 +++
 
+@title[Inheritance]
+
 Inheritance
 
 ```kotlin
@@ -69,6 +71,8 @@ class ViewController : BaseViewController {
 ```
 
 +++
+
+@title[Composition]
 
 Composition
 
