@@ -10,10 +10,11 @@
 
 Points in workshop
 
+- To OOP or not to OOP 🤔
 - Why so picky?
 - Coding patterns
-- Project structure
 - UML Examples
+- Project structure
 - Teamwork
 - Discussion
 
@@ -25,16 +26,16 @@ Points in workshop
 
 ---
 
-@title[OOP or not OOP]
+@title[To OOP or not to OOP]
 
 🤔
-> "To OOP or not OOP"
+> "To OOP or not to OOP"
 
 @ul
 
 - Avoid complex hierarchies (Less is more)
-- Avoid Base classes
 - Favor composition over inheritance
+- Avoid Base classes
 
 @ulend
 
@@ -44,55 +45,99 @@ Points in workshop
 
 - More flexible
 - Avoid tight coupling
-- Multiple inheritance is not working
+- Multiple inheritance?
   
 +++
 
 @title[Composition over inheritance]
 
-ViewController = Fragment/Activity
+### So how should we think?
+
+Think of **inheritance** as an **is a** relationship. 
+<p><font size="5">A car **"is a"** vehicle, an employee **"is a"** person, etc.</font></p>
+
+Think of **composition** as a **has a** relationship.
+<p><font size="5">A car **"has an"** engine, a person **"has a"** name, etc.</font></p>
 
 +++
 
-@title[Inheritance]
+@title[Examples]
 
-Inheritance
+**Inheritance** - <font size="5">I am of a type</font>
 
-```kotlin
-class BaseViewController {
-  fun startOtherViewController(name: String)
+<font size="5">Foo is a type of Bar.</font>
+
+```java
+class Foo extends Bar {
+
 }
 ```
 
+**Composition** - <font size="5">I own an object</font>
+
+<font size="5">Foo is responsible for its lifetime, when Foo dies, so does Bar</font>
+
 ```kotlin
-class ViewController : BaseViewController {
-  // invoke startOtherViewController() 
+class Foo {
+    Bar bar = new Bar()
 }
 ```
 
 +++
 
-@title[Composition]
+@title[Association & Aggregation]
 
-Composition
+**Association** - <font size="5">I have a relationship with an object</font>
 
-```kotlin
-class ViewControllerCoordinator {
-  fun startOtherViewController(name: String)
+<font size="5">Foo uses Bar</font>
+
+```java
+class Foo { 
+  void Baz(Bar bar) {
+    // Do something
+  } 
 }
 ```
 
-```kotlin
-class ViewController {
-  val coordinator: ViewControllerCoordinator
-  
-  Car(coordinator: ViewControllerCoordinator) {
-    this.coordinator = coordinator
-  }
-  
-  // invoke coordinator.startOtherViewController()
+**Aggregation** - <font size="5">I have an object which I've borrowed from someone else</font>
+
+<font size="5">When Foo dies, Bar may live on</font>
+
+```java
+class Foo { 
+    Bar bar
+    Foo(Bar bar) { 
+       this.bar = bar
+    }
 }
 ```
+
++++
+
+### Complex data structures
+
+Games dev with ex characters uses all technics.
+
+<font size="4">
+```java
+class Employee extends Person implements ProjectManager, CoffeeSpecialist, Janitor
+```
+</font>
+
++++
+
+### Why is all this important?
+
+OOP is a pushed on industy standard for some reason (C++, Java)
+
+We want to reuse code, but sometimes it can go wrong and we need to refactor.
+
+@ul
+
+- Why do we have som many utils for example?
+- Look at C and Unix
+
+@ulend
 
 ---
 
@@ -120,14 +165,14 @@ Coding patterns
 
 @title[MVVM]
 
-Frost will use MVVM pattern in both iOS and Android
+**Frost** will use **MVVM** pattern in both iOS and Android
 
 @ul
 
-- **Model** </br><font size="4">Data as is</font>
-- **View** <font size="4">No logic, maybe animations</font>
-- **ViewModel** <font size="4">Switch for model data and view states</font>
-- **ViewController/Fragment** <font size="4">View orchestrator & controls async tasks and logic</font>
+- **Model** <font size="4">Data as is</font>
+- **View** <font size="4">What user sees. Minor logic, maybe animations</font>
+- **ViewModel** <font size="4">Switch for model data and view states. "State of the data in the Model"</font>
+- **ViewController/Fragment** <font size="4">View orchestrator & controls async tasks, viewmodel logic</font>
 - **DataProvider/AppRepository** <font size="4">Networking, DB, Cache reuse. Subscribers? 🤔</font>
 
 @ulend
