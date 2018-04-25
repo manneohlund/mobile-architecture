@@ -30,16 +30,12 @@ Points in workshop
 🤔
 > "To OOP or not OOP"
 
-@ul
-
 - Avoid complex hierarchies
 - Less is more
 - Favor composition over inheritance
   - More flexible
   - Avoid tight coupling
   - Multiple inheritance is not working
-
-@ulend
 
 +++
 
