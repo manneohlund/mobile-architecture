@@ -31,13 +31,14 @@ Points in workshop
 
 @title[OOP or not OOP]
 
-> "To OOP or not OOP" 🤔
+🤔
+> "To OOP or not OOP"
 
 @ul
 
 - Avoid complex hierarchies
-- Less is more (Reuse)
-- Favor composition over inheritance (Procedual)
+- Less is more
+- Favor composition over inheritance
 
 @ulend
 
