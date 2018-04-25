@@ -35,6 +35,9 @@ Points in workshop
 - Avoid complex hierarchies
 - Less is more
 - Favor composition over inheritance
+ - More flexible
+ - Avoid tight coupling
+ - Multiple inheritance is not working
 
 @ulend
 
@@ -43,8 +46,8 @@ Points in workshop
 @title[Composition over inheritance]
 
 ```kotlin
-class Engine {
-  // Engine specs
+class BaseViewController {
+  
 }
 ```
 
