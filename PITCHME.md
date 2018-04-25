@@ -68,6 +68,8 @@ class Car {
 ```
 </div>
 
+---
+
 --- &twocol_with_width
 
 # Two Columns
