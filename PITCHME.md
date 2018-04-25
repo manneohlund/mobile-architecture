@@ -35,9 +35,9 @@ Points in workshop
 - Avoid complex hierarchies
 - Less is more
 - Favor composition over inheritance
- - More flexible
- - Avoid tight coupling
- - Multiple inheritance is not working
+  - More flexible
+  - Avoid tight coupling
+  - Multiple inheritance is not working
 
 @ulend
 
