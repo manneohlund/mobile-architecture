@@ -46,9 +46,7 @@ class Engine {
 }
 ```
 
-{{{ slide.content }}}
-<div style='float:left;width:48%;' class='centered'>
-{{{ slide.left.html }}}
+<div style='float:left;width:48%;'>
 Inheritance
 
 ```kotlin
@@ -58,8 +56,6 @@ class Car extends Engine {
 ```
 </div>
 <div style='float:right;width:48%;'>
-  {{{ slide.right.html }}}
-  
 Composition
 
 ```kotlin
