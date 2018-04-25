@@ -74,7 +74,7 @@ Coding patterns
 
 <table>
   <tbody>
-    <tr><th>.small[iOS]</th><th>.small[Android]</th></tr>
+    <tr><th>iOS</th><th>Android</th></tr>
     <tr>
       <!-- iOS -->
       <td>
