@@ -51,8 +51,8 @@ class Engine {
 Inheritance
 
 ```kotlin
-class Car extends Engine {
-  
+class Car : Engine {
+  // 
 }
 ```
 
@@ -60,11 +60,12 @@ Composition
 
 ```kotlin
 class Car {
-  Engine engine;
+  val engine: EngineSpecs
   
-  Car(EngineSpecs specs) {
-    engine = new Engine(specs);
+  Car(specs: EngineSpecs) {
+    engine = Engine(specs)
   }
+}
 ```
 
 ---
