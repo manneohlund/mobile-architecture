@@ -13,7 +13,7 @@ Points in workshop
 - Why so picky?
 - Coding patterns
 - Project structure
-- Examples
+- UML Examples
 - Teamwork
 - Discussion
 
