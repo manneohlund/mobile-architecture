@@ -70,6 +70,7 @@ Coding patterns
 
 Frost uses **feature** based structure of the project
 
+.small[
 <table>
   <tbody>
     <tr><th>iOS</th><th>Android</th></tr>
@@ -126,6 +127,7 @@ Frost uses **feature** based structure of the project
     <tr><th align="left">AppRepository</th><th align="left">AppRepository</th></tr>
   </tbody>
 </table>
+]
 
 ---
 
