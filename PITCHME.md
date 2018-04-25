@@ -2,4 +2,4 @@
 
 @title[Mobile Architecture]
 
-#### Mobile Architecture
+## Mobile Architecture
