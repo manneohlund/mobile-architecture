@@ -13,7 +13,7 @@ Points in workshop
 @ul
 
 - Why so picky?
-- Coding pattern
+- Coding patterns
 - Project structure
 - Examples
 - Teamwork
@@ -58,3 +58,12 @@ Good architecture leads to:
 
 ---
 
+# Coding patterns
+
+![Coding patters](/assets/mvc-mvp-mvvm.png?raw=true)
+
+---
+
+@title[The End]
+
+Happy coding! 👋
