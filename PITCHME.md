@@ -32,7 +32,7 @@ Points in workshop
 
 @ul
 
-- Avoid complex hierarchies
+- Avoid complex hierarchies (`Base` classes)
 - Less is more
 - Favor composition over inheritance
 
