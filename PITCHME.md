@@ -27,9 +27,13 @@ Points in workshop
 
 Good architecture leads to:
 
+@ul
+
 - Uniform team, projects and vision
 - Better code
 - Avoid refactoring
+
+@ulend
 
 ---
 
