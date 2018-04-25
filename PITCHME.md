@@ -116,6 +116,35 @@ Coding patterns
 
 ![Coding patters](https://github.com/manneohlund/mobile-architecture/blob/master/assets/img-mvc-mvp-mvvm.png?raw=true)
 
++++
+
+@title[MVVM]
+
+Frost will use MVVM pattern in both iOS and Android
+
+@ul
+
+- `Model` Data as is.
+- `View` No logic, maybe animations.
+- `ViewModel` Switch for model data and view states.
+
+@ulend
+
+@ul
+
+- `ViewController/Fragment` View orchestrator & controls async tasks and logic.
+- `DataProvider/AppRepository` Networking, DB, Cache reuse. Subscribers? 🤔
+
+@ulend
+
++++
+
+![IOS MVVM](https://github.com/manneohlund/mobile-architecture/blob/master/assets/img-mvc-mvp-mvvm.png?raw=true)
+
++++
+
+![Android MVVM](https://github.com/manneohlund/mobile-architecture/blob/master/assets/img-mvc-mvp-mvvm.png?raw=true)
+
 ---
 
 @title[Project structure]
