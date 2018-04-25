@@ -125,7 +125,7 @@ Coding patterns
       </td>
     </tr>
     <tr><th align="left">AppDelegate</th><th align="left">Application</th></tr>
-    <tr><th align="left"></th><th align="left">AppCoordinator</th></tr>
+    <tr><th align="left"></th><th align="left">AppCoordinator 🤔</th></tr>
     <tr><th align="left">DataProvider/AppRepository</th><th align="left">DataProvider/AppRepository</th></tr>
   </tbody>
 </table>
