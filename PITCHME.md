@@ -45,7 +45,7 @@ class Engine {
   // Engine specs
 }
 ```
-
+<br>
 <div class="left">
 Inheritance
 
@@ -67,22 +67,6 @@ class Car {
   }
 ```
 </div>
-
----
-
---- &twocol_with_width
-
-# Two Columns
-This line should span both columns
-
-*** =left width:66%
-
-# Left Column
-This line should span 2/3rds of the slide.
-
-*** =right width:33%
-
-This line should span 1/3rds of the slide.
 
 ---
 
