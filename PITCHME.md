@@ -10,16 +10,12 @@
 
 Points in workshop
 
-@ul
-
 - Why so picky?
 - Coding patterns
 - Project structure
 - Examples
 - Teamwork
 - Discussion
-
-@ulend
 
 ---
 
