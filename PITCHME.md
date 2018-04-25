@@ -45,8 +45,7 @@ class Engine {
   // Engine specs
 }
 ```
-<br>
-<div class="left">
+
 Inheritance
 
 ```kotlin
@@ -54,8 +53,7 @@ class Car extends Engine {
   
 }
 ```
-</div>
-<div class="right">
+
 Composition
 
 ```kotlin
@@ -66,7 +64,6 @@ class Car {
     engine = new Engine(specs);
   }
 ```
-</div>
 
 ---
 
