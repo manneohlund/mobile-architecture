@@ -179,11 +179,11 @@ Coding patterns
 
 +++
 
-![IOS MVVM](https://github.com/manneohlund/mobile-architecture/blob/master/assets/img-mvc-mvp-mvvm.png?raw=true)
+![IOS MVVM](https://github.com/manneohlund/mobile-architecture/blob/master/assets/ios-mvvm.png?raw=true)
 
 +++
 
-![Android MVVM](https://github.com/manneohlund/mobile-architecture/blob/master/assets/img-mvc-mvp-mvvm.png?raw=true)
+![Android MVVM](https://github.com/manneohlund/mobile-architecture/blob/master/assets/android-mvvm.png?raw=true)
 
 ---
 
