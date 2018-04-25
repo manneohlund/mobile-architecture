@@ -53,18 +53,18 @@ Points in workshop
 ### So how should we think?
 
 Think of **composition** as a **has a** relationship.
-<p><font size="4">A car **"has an"** engine, a person **"has a"** name, etc.</font></p>
+<p><font size="5">A car **"has an"** engine, a person **"has a"** name, etc.</font></p>
 
 Think of **inheritance** as an **is a** relationship. 
-<p><font size="4">A car **"is a"** vehicle, a employee **"is a"** person, etc.</font></p>
+<p><font size="5">A car **"is a"** vehicle, a employee **"is a"** person, etc.</font></p>
 
 +++
 
 @title[Examples]
 
-**Inheritance** - I am of a type.
+**Inheritance** - <font size="5">I am of a type</font>
 
-Foo is a type of Bar.
+<font size="5">Foo is a type of Bar.</font>
 
 ```java
 class Foo extends Bar {
@@ -72,9 +72,9 @@ class Foo extends Bar {
 }
 ```
 
-**Composition** - I own an object.
+**Composition** - <font size="5">I own an object</font>
 
-Foo is responsible for its lifetime, when Foo dies, so does Bar
+<font size="5">Foo is responsible for its lifetime, when Foo dies, so does Bar</font>
 
 ```kotlin
 class Foo {
@@ -86,9 +86,9 @@ class Foo {
 
 @title[Association & Aggregation]
 
-**Association** - I have a relationship with an object. 
+**Association** - <font size="5">I have a relationship with an object</font>
 
-Foo uses Bar
+<font size="5">Foo uses Bar</font>
 
 ```java
 class Foo { 
@@ -98,9 +98,9 @@ class Foo {
 }
 ```
 
-**Aggregation** - I have an object which I've borrowed from someone else.
+**Aggregation** - <font size="5">I have an object which I've borrowed from someone else</font>
 
-When Foo dies, Bar may live on.
+<font size="5">When Foo dies, Bar may live on</font>
 
 ```java
 class Foo { 
@@ -118,7 +118,7 @@ class Foo {
 Games dev with ex characters uses all technics.
 
 ```java
-class Employee extends Person implements ProjectManager, CoffeSpecialist
+class Employee extends Person implements ProjectManager, CoffeeSpecialist
 ```
 
 +++
