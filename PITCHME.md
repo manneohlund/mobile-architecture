@@ -66,6 +66,69 @@ Coding patterns
 
 ---
 
+@title[Project structure]
+
+Frost uses **feature** based structure of the project
+
+<table>
+  <tbody>
+    <tr><th>iOS</th><th>Android</th></tr>
+    <tr>
+      <!-- iOS -->
+      <td>
+        <ul>
+          <li>Coordinators</li>
+          <li>Features</li>
+          <ul>
+            <li><b>FeatureName</b></li>
+            <ul>
+              <li>Storyboard</li>
+              <li>ViewController</li>
+              <li>ViewModels</li>
+              <li>View</li>
+              <li>(Helpers / Handlers / Wrappers)</li>
+            </ul>
+            <li>Shared</li>
+          </ul>
+          <li>Managers</li>
+          <li>Models (Datatypes / Nomenclature)</li>
+          <li>Network</li>
+          <li>Storage</li>
+          <li>Utils (Parsers / Decoders / Helpers / Handlers)</li>
+          <li>Extensions</li>
+        </ul>
+      </td>
+      <td>
+        <ul> 
+          <li>features</li>
+          <ul>
+            <li><b>feature_name</b></li>
+            <ul>
+              <li>activity</li>
+              <li>fragment</li>
+              <li>view_model</li>
+              <li>view</li>
+              <li>(helper / handler / wrapper)</li>
+            </ul>
+            <li>shared</li>
+          </ul>
+          <li>manager</li>
+          <li>model (datatype / nomenclature)</li>
+          <li>network</li>
+          <li>storage</li>
+          <li>utils (parser / decoder / helper / handler)</li>
+          <li>extension</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><th align="left">AppDelegate</th><th align="left">Application</th></tr>
+    <tr><th align="left"></th><th align="left">AppCoordinator</th></tr>
+    <tr><th align="left">AppRepository</th><th align="left">AppRepository</th></tr>
+  </tbody>
+</table>
+
+---
+
 @title[The End]
 
 Happy coding! 👋
