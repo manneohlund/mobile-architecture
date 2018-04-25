@@ -10,10 +10,11 @@
 
 Points in workshop
 
+- To OOP or not to OOP 🤔
 - Why so picky?
 - Coding patterns
-- Project structure
 - UML Examples
+- Project structure
 - Teamwork
 - Discussion
 
@@ -25,10 +26,10 @@ Points in workshop
 
 ---
 
-@title[OOP or not OOP]
+@title[To OOP or not to OOP]
 
 🤔
-> "To OOP or not OOP"
+> "To OOP or not to OOP"
 
 @ul
 
@@ -52,11 +53,11 @@ Points in workshop
 
 ### So how should we think?
 
-Think of **composition** as a **has a** relationship.
-<p><font size="5">A car **"has an"** engine, a person **"has a"** name, etc.</font></p>
-
 Think of **inheritance** as an **is a** relationship. 
 <p><font size="5">A car **"is a"** vehicle, a employee **"is a"** person, etc.</font></p>
+
+Think of **composition** as a **has a** relationship.
+<p><font size="5">A car **"has an"** engine, a person **"has a"** name, etc.</font></p>
 
 +++
 
