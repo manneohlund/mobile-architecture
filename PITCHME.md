@@ -40,6 +40,8 @@ Points in workshop
 
 +++
 
+@title[Composition over inheritance]
+
 ```kotlin
 class Engine {
   // Engine specs
