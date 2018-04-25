@@ -124,16 +124,11 @@ Frost will use MVVM pattern in both iOS and Android
 
 @ul
 
-- `Model` Data as is.
-- `View` No logic, maybe animations.
-- `ViewModel` Switch for model data and view states.
-
-@ulend
-
-@ul
-
-- `ViewController/Fragment` View orchestrator & controls async tasks and logic.
-- `DataProvider/AppRepository` Networking, DB, Cache reuse. Subscribers? 🤔
+- **Model** <font size="2">Data as is</font>
+- **View** No logic, maybe animations.
+- **ViewModel** Switch for model data and view states.
+- **ViewController/Fragment** View orchestrator & controls async tasks and logic.
+- **DataProvider/AppRepository** Networking, DB, Cache reuse. Subscribers? 🤔
 
 @ulend
 
