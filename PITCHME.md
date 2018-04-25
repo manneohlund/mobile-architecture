@@ -52,6 +52,8 @@ Points in workshop
 
 ViewController = Fragment/Activity
 
++++
+
 Inheritance
 
 ```kotlin
