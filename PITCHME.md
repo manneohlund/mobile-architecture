@@ -61,7 +61,7 @@ Think of **composition** as a **has a** relationship.
 
 +++
 
-@title[Examples]
+@title[Inheritance & Composition]
 
 **Inheritance** - <font size="5">I am of a type</font>
 
@@ -79,7 +79,7 @@ class Foo extends Bar {
 
 ```kotlin
 class Foo {
-    Bar bar = new Bar()
+  Bar bar = new Bar()
 }
 ```
 
@@ -105,10 +105,10 @@ class Foo {
 
 ```java
 class Foo { 
-    Bar bar
-    Foo(Bar bar) { 
-       this.bar = bar
-    }
+  Bar bar
+  Foo(Bar bar) { 
+    this.bar = bar
+  }
 }
 ```
 
