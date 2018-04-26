@@ -173,7 +173,7 @@ Coding patterns
 - **View** <font size="4">What user sees. Minor logic, maybe animations</font>
 - **ViewModel** <font size="4">Switch for model data and view states. "State of the data in the Model"</font>
 - **ViewController/Fragment** <font size="4">View orchestrator & controls async tasks, viewmodel logic</font>
-- **DataProvider/AppRepository** <font size="4">Networking, DB, Cache reuse. Subscribers? 🤔</font>
+- **DataProvider/Repository** <font size="4">Networking, DB, Cache reuse. Subscribers? 🤔</font>
 
 @ulend
 
@@ -253,7 +253,7 @@ Coding patterns
     </tr>
     <tr><th align="left">AppDelegate</th><th align="left">Application</th></tr>
     <tr><th align="left"></th><th align="left">AppCoordinator 🤔</th></tr>
-    <tr><th align="left">DataProvider</th><th align="left">DataProvider</th></tr>
+    <tr><th align="left">DataProvider/Repository</th><th align="left">DataProvider/Repository</th></tr>
   </tbody>
 </table>
 </font>
