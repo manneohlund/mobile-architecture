@@ -267,6 +267,12 @@ Make UML where MVVM can be used.
 
 ---
 
+@title[Links]
+
+[Frost Mobile Architecture and Component naming](https://github.com/FrostDigital/frost-mobile-guide/wiki/Frost-Mobile-Architecture-and-Component-naming)
+
+---
+
 @title[The End]
 
 Happy coding! 👋
