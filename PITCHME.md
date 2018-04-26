@@ -262,8 +262,8 @@ Coding patterns
 
 # Teamwork
 
-Substitut Base class with composition.
-Make UML where MVVM can be used.
+- Substitut Base class with composition.
+- Make UML where MVVM can be used.
 
 ---
 
