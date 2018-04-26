@@ -197,6 +197,8 @@ Coding patterns
 
 +++
 
+@title[iOS Android uniform]
+
 <font size="3">
 <table>
   <tbody>
@@ -251,7 +253,7 @@ Coding patterns
     </tr>
     <tr><th align="left">AppDelegate</th><th align="left">Application</th></tr>
     <tr><th align="left"></th><th align="left">AppCoordinator 🤔</th></tr>
-    <tr><th align="left">DataProvider/AppRepository</th><th align="left">DataProvider/AppRepository</th></tr>
+    <tr><th align="left">DataProvider</th><th align="left">DataProvider</th></tr>
   </tbody>
 </table>
 </font>
